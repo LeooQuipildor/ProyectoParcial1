@@ -12,7 +12,8 @@ namespace EmpresaBenjaAvance.CDatos
 {
     internal class LoginD
     {
-        SqlConnection conexion = new SqlConnection("server=.; database= EMPRESA2; integrated security= true");
+        SqlConnection conexion = new SqlConnection("server=DESKTOP-E7A0TP3\\SQLEXPRESS; database=EMPRESA2; integrated security=true");
+
         SqlCommand comando;
         SqlDataReader leer;
 
