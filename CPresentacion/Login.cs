@@ -75,5 +75,25 @@ namespace EmpresaBenjaAvance.CPresentacion
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Ocultar los TextBox de login (usuario y clave)
+            txtUsuario.Visible = false;
+            txtClave.Visible = false;
+
+            // Ocultar también los botones de inicio de sesión y salir si es necesario
+            btnIniciarSesion.Visible = false;
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            // Ocultar los TextBox de login (usuario y clave)
+            txtUsuario.Visible = true;
+            txtClave.Visible = true;
+
+            // Ocultar también los botones de inicio de sesión y salir si es necesario
+            btnIniciarSesion.Visible = true;
+        }
     }
 }
