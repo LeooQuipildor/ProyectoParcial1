@@ -54,7 +54,6 @@
     <Compile Include="CPresentacion\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="CPresentacion\LoginRegistro.cs" />
     <Compile Include="CPresentacion\Principal.cs">
       <SubType>Form</SubType>
     </Compile>

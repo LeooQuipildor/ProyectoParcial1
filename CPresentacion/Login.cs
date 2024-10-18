@@ -90,21 +90,24 @@ namespace EmpresaBenjaAvance.CPresentacion
 
             //mostrar el formulario de registro oculto
             label10.Visible = true;
-            textBox7.Visible = true;
+            txtClaveR.Visible = true;
             label9.Visible = true;
-            textBox6.Visible = true;
+            txtUsuarioR.Visible = true;
             label8.Visible = true;
-            textBox5.Visible = true;
+            txtFecha.Visible = true;
             label7.Visible = true;
-            textBox4.Visible = true;
+            txtTelefono.Visible = true;
             label6.Visible = true;
-            textBox3.Visible = true;
+            txtdni.Visible = true;
             label5.Visible = true;
-            textBox2.Visible = true;
+            txtApellido.Visible = true;
             label4.Visible = true;
-            textBox1.Visible = true;
+            txtNombre.Visible = true;
             checkBox1.Visible = true;
-            button3.Visible = true;
+            btnCrearUsuario.Visible = true;
+            txtFecha.Visible = true;
+            txtMes.Visible = true;
+            txtAño.Visible = true;
 
         }
 
@@ -122,21 +125,47 @@ namespace EmpresaBenjaAvance.CPresentacion
 
             //oculto el formulario de registro
             label10.Visible = false;
-            textBox7.Visible = false;
+            txtClaveR.Visible = false;
             label9.Visible = false;
-            textBox6.Visible = false;
+            txtUsuarioR.Visible = false;
             label8.Visible = false;
-            textBox5.Visible = false;
+            txtFecha.Visible = false;
             label7.Visible = false;
-            textBox4.Visible = false;
+            txtTelefono.Visible = false;
             label6.Visible = false;
-            textBox3.Visible = false;
+            txtdni.Visible = false;
             label5.Visible = false;
-            textBox2.Visible = false;
+            txtApellido.Visible = false;
             label4.Visible = false;
-            textBox1.Visible = false;
+            txtNombre.Visible = false;
             checkBox1.Visible = false;
-            button3.Visible = false;
+            btnCrearUsuario.Visible = false;
+            txtFecha.Visible = false;
+            txtMes.Visible = false;
+            txtAño.Visible = false;
+        }
+
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+
+        private void btnCrearUsuario_Click(object sender, EventArgs e)
+        {
+            // "22/02/2005"
+            string fecha = txtFecha.Text + "/" + txtMes.Text + "/" + txtAño.Text;
+
+            loginL.dni = Convert.ToInt32(txtdni.Text);
+            loginL.apellido = txtApellido.Text;
+            loginL.nombre = txtNombre.Text;
+            loginL.telefono = txtTelefono.Text;
+            loginL.fechaNac = DateTime.Parse(fecha);
+            loginL.usuario = txtUsuarioR.Text;
+            loginL.clave = txtClaveR.Text;
+
+            loginL.agregarEmpleadoL(loginL);
         }
     }
 }
