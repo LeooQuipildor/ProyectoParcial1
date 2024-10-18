@@ -33,9 +33,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.btnRegistrarse = new System.Windows.Forms.Button();
             this.btnIniciarSesion = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtMes = new System.Windows.Forms.TextBox();
+            this.txtAño = new System.Windows.Forms.TextBox();
             this.btnCrearUsuario = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -55,8 +56,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtAño = new System.Windows.Forms.TextBox();
-            this.txtMes = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -117,19 +116,6 @@
             this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // btnRegistrarse
-            // 
-            this.btnRegistrarse.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnRegistrarse.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrarse.ForeColor = System.Drawing.Color.White;
-            this.btnRegistrarse.Location = new System.Drawing.Point(374, 618);
-            this.btnRegistrarse.Name = "btnRegistrarse";
-            this.btnRegistrarse.Size = new System.Drawing.Size(243, 43);
-            this.btnRegistrarse.TabIndex = 13;
-            this.btnRegistrarse.Text = "Registrarse";
-            this.btnRegistrarse.UseVisualStyleBackColor = false;
-            this.btnRegistrarse.Click += new System.EventHandler(this.btnRegistrarse_Click);
-            // 
             // btnIniciarSesion
             // 
             this.btnIniciarSesion.BackColor = System.Drawing.Color.LightSeaGreen;
@@ -152,7 +138,6 @@
             this.panel1.Controls.Add(this.txtAño);
             this.panel1.Controls.Add(this.btnCrearUsuario);
             this.panel1.Controls.Add(this.btnSalir);
-            this.panel1.Controls.Add(this.btnRegistrarse);
             this.panel1.Controls.Add(this.checkBox1);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.txtdni);
@@ -172,6 +157,30 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(640, 692);
             this.panel1.TabIndex = 15;
+            // 
+            // txtMes
+            // 
+            this.txtMes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(72)))), ((int)(((byte)(96)))));
+            this.txtMes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtMes.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMes.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtMes.Location = new System.Drawing.Point(101, 282);
+            this.txtMes.Name = "txtMes";
+            this.txtMes.Size = new System.Drawing.Size(46, 30);
+            this.txtMes.TabIndex = 36;
+            this.txtMes.Visible = false;
+            // 
+            // txtAño
+            // 
+            this.txtAño.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(72)))), ((int)(((byte)(96)))));
+            this.txtAño.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtAño.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAño.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtAño.Location = new System.Drawing.Point(153, 282);
+            this.txtAño.Name = "txtAño";
+            this.txtAño.Size = new System.Drawing.Size(44, 30);
+            this.txtAño.TabIndex = 35;
+            this.txtAño.Visible = false;
             // 
             // btnCrearUsuario
             // 
@@ -411,30 +420,6 @@
             this.label3.Text = "o";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // txtAño
-            // 
-            this.txtAño.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(72)))), ((int)(((byte)(96)))));
-            this.txtAño.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtAño.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAño.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.txtAño.Location = new System.Drawing.Point(153, 282);
-            this.txtAño.Name = "txtAño";
-            this.txtAño.Size = new System.Drawing.Size(44, 30);
-            this.txtAño.TabIndex = 35;
-            this.txtAño.Visible = false;
-            // 
-            // txtMes
-            // 
-            this.txtMes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(72)))), ((int)(((byte)(96)))));
-            this.txtMes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtMes.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMes.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.txtMes.Location = new System.Drawing.Point(101, 282);
-            this.txtMes.Name = "txtMes";
-            this.txtMes.Size = new System.Drawing.Size(46, 30);
-            this.txtMes.TabIndex = 36;
-            this.txtMes.Visible = false;
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -467,7 +452,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Button btnSalir;
-        private System.Windows.Forms.Button btnRegistrarse;
         private System.Windows.Forms.Button btnIniciarSesion;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button1;

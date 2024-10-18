@@ -16,7 +16,6 @@ C:\Users\leand\OneDrive\Escritorio\Visual Studio Codee\Tecnicatura\Programacion2
 C:\Users\leand\OneDrive\Escritorio\Visual Studio Codee\Tecnicatura\Programacion2\Parcial1\EmpresaBenjaAvance\EmpresaBenjaAvance\obj\Debug\EmpresaBenjaAvance.csproj.AssemblyReference.cache
 C:\Users\leand\OneDrive\Escritorio\Visual Studio Codee\Tecnicatura\Programacion2\Parcial1\EmpresaBenjaAvance\EmpresaBenjaAvance\obj\Debug\EmpresaBenjaAvance.CPresentacion.Login.resources
 C:\Users\leand\OneDrive\Escritorio\Visual Studio Codee\Tecnicatura\Programacion2\Parcial1\EmpresaBenjaAvance\EmpresaBenjaAvance\obj\Debug\EmpresaBenjaAvance.CPresentacion.Principal.resources
-C:\Users\leand\OneDrive\Escritorio\Visual Studio Codee\Tecnicatura\Programacion2\Parcial1\EmpresaBenjaAvance\EmpresaBenjaAvance\obj\Debug\EmpresaBenjaAvance.CPresentacion.Registrarse.resources
 C:\Users\leand\OneDrive\Escritorio\Visual Studio Codee\Tecnicatura\Programacion2\Parcial1\EmpresaBenjaAvance\EmpresaBenjaAvance\obj\Debug\EmpresaBenjaAvance.Properties.Resources.resources
 C:\Users\leand\OneDrive\Escritorio\Visual Studio Codee\Tecnicatura\Programacion2\Parcial1\EmpresaBenjaAvance\EmpresaBenjaAvance\obj\Debug\EmpresaBenjaAvance.csproj.GenerateResource.cache
 C:\Users\leand\OneDrive\Escritorio\Visual Studio Codee\Tecnicatura\Programacion2\Parcial1\EmpresaBenjaAvance\EmpresaBenjaAvance\obj\Debug\EmpresaBenjaAvance.csproj.CoreCompileInputs.cache

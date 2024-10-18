@@ -44,12 +44,6 @@ namespace EmpresaBenjaAvance.CPresentacion
             }
         }
 
-        private void btnRegistrarse_Click(object sender, EventArgs e)
-        {
-            Registrarse registrarse = new Registrarse();
-
-            registrarse.ShowDialog();
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
